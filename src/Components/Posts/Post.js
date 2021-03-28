@@ -43,7 +43,6 @@ function Media(props) {
             <Skeleton animation="wave" variant="circle" width={40} height={40} />
           ) : (
             <Avatar
-              alt="Ted talk"
               src={`https://picsum.photos/id/${id+100}/500/300`}
             />
           )
